@@ -16,13 +16,13 @@
 #modalBtn {
   cursor: pointer;
   margin: 0 auto;
-  margin-top: 30px;
-  margin-left: 500px;
+  margin-top: 10px;
+  margin-left: 800px;
   background: none;
   width: 45px;
   height: 45px;
   background: #5d330b;
-  border-radius: 1px;
+  border-radius: 3px;
 }
 
 .modal {
