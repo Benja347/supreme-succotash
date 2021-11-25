@@ -16,11 +16,11 @@
 #modalBtn {
   cursor: pointer;
   margin: 0 auto;
-  margin-top: 50px;
-  margin-left: 150px;
+  margin-top: 30px;
+  margin-left: 500px;
   background: none;
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   background: #5d330b;
   border-radius: 1px;
 }
