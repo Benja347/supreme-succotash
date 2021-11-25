@@ -47,12 +47,34 @@
             <script src="../../js/menu.js"></script>
         </div>
     </div>
-    <div class="main-container">
-        <div class="cnc-grid-item">
-                        <img id="modalBtn" class="calc-icon" src="../../img/calculatorIcon.svg" alt="Drawn calculator">
-                    </div>
 
-            <div id="calculatorModal" class="modal">
+        <div class="calculator-container">
+            <div class="round-container">
+                <span class="round-info">Ronda&nbsp;</span><span id="roundNumber" class="round-number">1</span><br>
+                <img src="../../img/energy.png">
+
+                <div class="energy-quantity">
+                    <span id="energyQuantity">3</span><span>/10</span>
+                </div>
+            </div>
+
+            <div class="ene-gain-loss-container">
+                <div class="eneCalc-item">
+                    <button onclick="subtract()">-1 ENE</button>
+                </div>
+
+                <div class="eneCalc-item">
+                    <button onclick="add()">+1 ENE</button>
+                </div>
+
+                <div class="eneCalc-item">
+                    <button onclick="nextRound()">SIGUIENTE RONDA</button>
+                </div>
+
+                <div class="eneCalc-item">
+                    <button onclick="reset()">NUEVA PARTIDA</button>
+                    <img id="modalBtn" class="calc-icon" src="../../img/calculatorIcon.svg" alt="Drawn calculator">
+                                <div id="calculatorModal" class="modal">
                 <!-- Modal content -->
                 <div class="modal-content">
                     <span class="close">&times;</span>
@@ -88,31 +110,6 @@
                     </section>
                 </div>
             </div>
-        <div class="calculator-container">
-            <div class="round-container">
-                <span class="round-info">Ronda&nbsp;</span><span id="roundNumber" class="round-number">1</span><br>
-                <img src="../../img/energy.png">
-
-                <div class="energy-quantity">
-                    <span id="energyQuantity">3</span><span>/10</span>
-                </div>
-            </div>
-
-            <div class="ene-gain-loss-container">
-                <div class="eneCalc-item">
-                    <button onclick="subtract()">-1 ENE</button>
-                </div>
-
-                <div class="eneCalc-item">
-                    <button onclick="add()">+1 ENE</button>
-                </div>
-
-                <div class="eneCalc-item">
-                    <button onclick="nextRound()">SIGUIENTE RONDA</button>
-                </div>
-
-                <div class="eneCalc-item">
-                    <button onclick="reset()">NUEVA PARTIDA</button>
                 </div>
             </div>
             <script src="energyCalculator.js"></script>
